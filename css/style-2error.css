@@ -1,0 +1,434 @@
+.sidebar {
+    grid-row: 1/4;
+}
+
+.sidebar div > h2 {
+    margin: 20px 0px;
+    font-family: Rabbit;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.sidebar h2 > span {
+    color: #fc9d03;
+}
+
+.about img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+}
+
+.featured_posts {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post {
+    display: flex;
+}
+
+.calendar {
+    width: 50px;
+    height: 60px;
+    margin: 10px;
+    background-color: #333;
+    padding: 10px;
+}
+
+.calendar p {
+    font-size: 30px;
+    font-family: Counture;
+    text-align: center;
+    color: #fc9d03;
+}
+
+.calendar span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.dish {
+    padding: 15px;
+}
+
+.dish h6 {
+    color: #fc9d03;
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+.dish h1 {
+    font-size: 24px;
+    font-family: Champagne;
+    letter-spacing: 3px;
+}
+
+.dish p {
+    font-size: 12px;
+}
+
+.recipe_type div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+    width: 300px;
+    color: #333;
+}
+
+.sub_type a {
+    margin-left: 20px;
+    color: #555;
+    font-size: 14px;
+}
+
+.recipe_type div span {
+    float: right;
+    font-size: 12px;
+}
+
+.recipe_type div a:hover {
+    color: #fc9d03;
+    transition: all 0.3s ease-in-out;
+}
+
+.poster {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.poster p {
+    width: 90%;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.poster input {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #fc9d03;
+}
+
+input:focus {
+    border: 2px solid #333;
+    outline: none;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.poster_button {
+    font-family: Counture;
+    background-color: #fc9d03;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.featured_post {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    position: relative;
+    text-align: center;
+    line-height: 25px;
+}
+
+.featured_post h1 {
+    margin: 20px 0px;
+    font-family: Champagne;
+    letter-spacing: 3px;
+}
+
+.featured_post .date {
+    position: absolute;
+    left: 20px;
+    background-color: #fc9d03;
+    width: 80px;
+}
+
+.featured_post .date p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Couture;
+    color: #fff;
+    text-align: center;
+}
+
+.featured_post .date p span {
+    display: block;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.featured_post img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.featured_post h6 {
+    font-family: Rabbit;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 10px 0px;
+}
+
+.featured_post h6 span {
+    color: #fc9d03;
+}
+
+.featured_post a.button {
+    display: block;
+    border: 2px solid #fc9d03;
+    padding: 5px 10px;
+    width: 120px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: Champagne;
+    margin: 20px auto;
+}
+
+.featured_post a.button:hover {
+    border: 2px solid #333;
+    background-color: #fc9d03;
+    transition: all 0.3s ease-in-out;
+}
+
+.selected_posts img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin: 10px 0px 30px;
+    color: #333;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.description h1 {
+    font-family: Champagne;
+    color: #333;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.description h1 {
+    font-family: Champagne;
+    font-size: 26px;
+    margin: 10px 0px;
+    letter-spacing: 3px;
+}
+
+.comment {
+    margin: 70px 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 200px;
+    background-color: #eee;
+}
+
+.comment p {
+    line-height: 25px;
+    color: #555;
+    text-align: justify;
+}
+
+.comment h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fc9d03;
+    letter-spacing: 2px;
+    float: right;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.quotation {
+    color: #fc9d03;
+    font-size: 50px;
+    font-family: Couture;
+    line-height: 50px;
+}
+
+.load_more {
+    grid-column: 2/4;
+    text-align: center;
+}
+
+.load_more a {
+    display: block;
+    background-color: #eee;
+    font-size: 26px;
+    padding: 15px;
+    width: 180px;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.load_more a:hover {
+    background-color: #fc9d03;
+    border: 2px solid #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.tag {
+    color: #fc9d03;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.tag span {
+    border-left: 2px solid #ccc;
+    margin: 0px 20px;
+}
+
+
+/* Ctegories Style Section */
+
+.categories {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-column-gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.card_category {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.card_category img {
+    position: absolute;
+    box-shadow: 2px 2px 5px -3px #333;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.desc_category h2 {
+    margin: 10px 0px;
+    color: #333;
+}
+
+.desc_category p + p {
+    background-color: #fc9d0380;
+    padding: 15px;
+    margin-top: 20px;
+    color: #333;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.desc_category a.recipe_btn {
+    color: #555;
+    font-weight: bold;
+    border-left: 2px solid #fc9d03;
+    padding-left: 10px;
+}
+
+.desc_category a.recipe_btn:hover {
+    color: #fc9d03;
+    transition: color 0.3s ease-in-out;
+}
+
+.desc_category a.button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 120px;
+    background-color: #fc9d03;
+    font-weight: bold;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.desc_category a.button:hover {
+    color: #333;
+    border: 2px solid #fc9d03;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: all 0.3 ease-in-out;
+}
+
+/* Newsletter Registration Style */
+
+.newsletter {
+    background-image: url(../images/fresh1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.newsletter_filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #33333370;
+}
+
+.action_call {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    box-sizing: border-box;
+    font-family: Champagne;
+    letter-spacing: 2px;
+}
+
+.action_call h2 {
+    margin: 20px 0px;
+}
+
+.action_call input {
+    width: 300px;
+    padding: 10px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.action_call button {
+    width: 120px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.action_call button:hover {
+    cursor: pointer;
+    background-color: #fc9d03;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Footer Section Style */
+
